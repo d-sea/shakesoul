@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*
+*	Title: Vicuna: [Eye Catch Long Module]
+*	URI: http://vicuna.jp/
+*	Last Modified: 2007-07-05
+*	Author: wu
+*
+*	Description:
+*	ページ上部に画像(Long)を表示させる事ができます。
+*	読み込まれる画像: images/eyeCatch/long.gif
+*
+*/
+
+/*======================================
+
+	Eye Catch [Long] image Module
+	
+=======================================*/
+
+/*--------------------------------------
+	1-1.全てのページへ影響
+---------------------------------------*/
+
+body {
+	margin: 0 10px;
+}
+
+div#header,
+div#content,
+div#footer {
+	width: 800px;
+}
+
+/*--------------------------------------
+	1-2.body.singleへの処理
+---------------------------------------*/
+
+body.single ul#flip1 {
+	position: static;
+}
+
+body.single div#main p.topicPath {
+	margin-right: 0;
+}
+
+/*--------------------------------------
+	1-3.body.doubleへの処理
+---------------------------------------*/
+
+body.double div#content {
+	padding-top: 228px;
+	background-image: url(../images/eyeCatch/long.gif);
+	background-repeat: no-repeat;
+}
+
+body.double div#utilities {
+	margin-top: 245px;
+}
+
+body.double div#main {
+	position: relative;
+}
+

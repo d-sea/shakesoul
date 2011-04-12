@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/*
+@prefix : <http://purl.org/net/ns/doas#> .
+<> a :CSSstylesheet;
+ :title "Vicuna - Global Navigation Style Module";
+ :created "2008-01-03";
+ :release [:revision "1.01"; :created "2008-01-13"];
+ :author [:name "wu"; :homepage <http://vicuna.jp/>; :mbox "3ping.org@gmail.com"];
+ :license <http://www.opensource.org/licenses/mit-license.php>;
+ :description "グローバルメニューHTML用のスタイル定義";
+ :note "このモジュールを有効にする前に、グローバルメニュー用のHTMLが追加されている必要があります。" .
+*/
+
+div#header {
+	border-bottom: none;
+}
+
+/*======================================
+
+	Global Navigation Module
+	
+=======================================*/
+
+ul#globalNavi {
+	margin: 14px 0 0;
+	padding: 0;
+	border: 1px solid #eee;
+}
+
+ul#globalNavi li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 120px;
+	line-height: 1;
+	list-style-type: none;
+	font-size: 12px;
+}
+
+/*--------------------------------------
+	1.Button
+---------------------------------------*/
+
+ul#globalNavi li a {
+	margin-bottom: -1px;
+	padding: 0.6em 10px; /* Button Height */
+	border: none;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	display: block;
+	position: relative; /* IE6 Bug Fix */
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+}
+
+/*--------------------------------------
+	2. On mouse
+---------------------------------------*/
+
+ul#globalNavi li a:hover {
+	color: #fff;
+	background-color: #333;
+}
+
+/*--------------------------------------
+	3. Current 
+---------------------------------------*/
+
+ul#globalNavi li.current a:link,
+ul#globalNavi li.current a:visited,
+ul#globalNavi li.current a:hover {
+	border-right: none;
+	color: #fff;
+	background-color: #333;
+}
+
+/*--------------------------------------
+	clearFix
+---------------------------------------*/
+
+ul#globalNavi {
+	_height: 1px;
+	min-height: 1px;
+}
+
+ul#globalNavi:after {
+	height: 0;
+	visibility: hidden;
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* for MacIE5 \*//*/
+
+ul#globalNavi {
+	height: auto;
+	overflow: hidden;
+}
+/* end */

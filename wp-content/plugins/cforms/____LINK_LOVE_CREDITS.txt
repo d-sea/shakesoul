@@ -1,0 +1,45 @@
+
+I've been asked a few times how I felt about removing the
+link love / credits line underneath the form.
+
+Below you'll find a copy of what I wrote as a response and
+how I see it:
+
+****
+
+I've been spending a couple of hundreds of hours overall on cforms,
+plus providing free support. Lately, users not only have started
+removing the link love from the get-go, but some even had the nerves to
+temporarily turn it back on, ask for extensive (*free*) support and
+after having received support at no cost, they turned it back off.
+
+Since "link love" is the only form of appreciation I ever asked from
+users in return this equates to a slap in the face.
+
+Hence I've decided that if no link love is shown, certain (Ajax related)
+functionality will simply not be available and cforms will fall back to
+non Ajax form submission. If users disable Ajax, everything works as
+usual anyway.
+
+So what are the options for the users/your clients?
+
+(1) Obviously the best: simply leaving the credits/link love in place :-)
+(2) Use cforms without Ajax capabilities
+(3) Alternative link love in some other place on the site (e.g. credits page)
+(4) Or users / commercial clients happen to find something on my Amazon
+wish list (or gift card) reflecting the value cforms has to them
+(in fact I leave it up the user to determine how much)
+
+(3) & (4) will give you a key that 'unlocks' cforms
+
+Users who paid my Amazon list a visit of course will all have keys.
+
+This is not meant to be a hostile reaction, but a necessary one for my
+sanity - if that makes sense.
+
+'Hope for your understanding!
+Oliver
+
+PS: In case you're interested:
+Amazon US: http://www.amazon.com/gp/registry/wishlist/8AA0IPK7J65P
+Amazon DE Gift Card: https://www.amazon.de/gp/gc/order-email/ref=g_gc-dp_lp_email

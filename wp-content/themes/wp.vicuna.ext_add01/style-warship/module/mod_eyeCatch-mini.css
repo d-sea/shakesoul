@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*
+*	Title: Vicuna: [Eye Catch Mini Module]
+*	URI: http://vicuna.jp/
+*	Last Modified: 2007-07-06
+*	Author: wu
+*
+*	Description:
+*	ページ上部に画像(Mini)を表示させる事ができます。
+*	読み込まれる画像: images/eyeCatch/mini.png
+*
+*/
+
+/*======================================
+
+	Eye Catch [Mini] image Module
+	
+=======================================*/
+
+/*--------------------------------------
+	1-2.body.doubleへの処理
+---------------------------------------*/
+
+body.double div#content {
+	background-color: transparent;
+	background-image: url(../images/eyeCatch/mini.gif);
+	background-repeat: no-repeat;
+}
+
+body.double h1 {
+	margin: 0 0 0.5em -5px;
+	_position: relative; /* for IE ネガティブマージンが効かなかったから */
+}
+
+body.double div#main p.topicPath {
+	margin-top: 1.7em;
+	margin-left: 5px;
+}
+
+body.double div#utilities {
+	margin-top: 289px;
+
+}

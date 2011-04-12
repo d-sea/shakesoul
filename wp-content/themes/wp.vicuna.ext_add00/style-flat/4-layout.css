@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/*
+@prefix : <http://purl.org/net/ns/doas#> .
+<> a :CSSstylesheet;
+ :title "Vicuna Flat Style - Layout";
+ :created "2008-01-07";
+ :release [:revision "1.00"; :created "2008-01-010"];
+ :author [:name "wu"; :homepage <http://vicuna.jp/>; :mbox "3ping.org@gmail.com"];
+ :license <http://www.opensource.org/licenses/mit-license.php>;
+ :description "
+ 	context.cssからレイアウトに関するスタイルを抜き出したモジュール
+	[←★→]マークのついた指定を全て反転させることでカラム位置の左右入れ替えが可能です。
+	";
+ :note "
+ 	Outline
+		4-1.containers
+			4-2.[Sngle column]
+				4-2-1.div#utilities
+			4-3.[Double column]
+				4-3-1.div#main
+				4-3-2.div#utilities" .
+*/
+
+/*======================================
+
+	4-1.Containers Layout
+	
+=======================================*/
+
+body {
+	text-align: center; /* Centering for IE6 */
+}
+
+div#header,
+div#content,
+div#footer {
+	margin: 0 auto;
+	text-align: left;
+}
+
+/*======================================
+
+	4-2. [Sngle column]
+	Style for body class="single"
+	
+=======================================*/
+
+body.single ul#flip1 {
+	margin: 1em 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+body.single div#main p.topicPath {
+	margin-right: 11em;
+}
+
+/*--------------------------------------
+	4-2-1. div#utilities
+---------------------------------------*/
+
+body.single div#utilities {
+	margin-top: 1em;
+	padding: 1.2em 0;
+}
+
+body.single div#utilities dl {
+
+}
+
+body.single div#utilities dl dt {
+
+}
+
+body.single div#utilities dl dd {
+	margin: 0 0 1em;
+}
+
+body.single div#utilities dl dd ul {
+	margin: 0;
+}
+
+body.single div#utilities dl dd dt {
+	margin: 0;
+	padding: 0 0 0.2em 0;
+}
+
+body.single div#utilities dl dd dd {
+	border: none;
+	background-image: none;
+}
+
+/* navi */
+body.single #utilities dl.navi {
+	float: left;
+	width: 49%;
+	display: inline; /* for IE6 */
+}
+
+body.single #utilities dl.navi dt {
+
+}
+
+/* others */
+
+body.single #utilities dl.others {
+	float: right;
+	clear: right;
+	width: 49%;
+	display: inline; /* for IE6 */
+}
+
+/*======================================
+
+	4-3. [Double column] body.double 
+	Style for body class="double"
+	[←★→]マークのついた指定を反転させることでカラムの位置入れ替えが可能
+	
+=======================================*/
+
+/*--------------------------------------
+	4-3-1. div#main
+---------------------------------------*/
+
+body.double div#main {
+	margin-right: 5%; /* [←★→] */
+	float: left; /* [←★→] */
+	display: inline;
+	width: 66%;
+}
+
+/*--------------------------------------
+	4-3-2. div#utilities
+---------------------------------------*/
+
+body.double div#utilities {
+	float: left; /* [←★→] */
+	clear: right; /* [←★→] */
+	width: 29%;
+}
+
+body.double div#utilities dl.navi,
+body.double div#utilities dl.others {
+	margin-left: 10px; /* [←★→] */
+}
+

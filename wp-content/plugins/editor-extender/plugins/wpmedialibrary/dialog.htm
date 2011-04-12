@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{#wpmedialibrary_dlg.title}</title>
+	<script type="text/javascript" src="../../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../../../../../wp-includes/js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="js/dialog.js"></script>
+	<style>
+		ul{
+			list-style:none;
+			margin:0;
+			padding:0;
+		}
+		#imagegroup{
+			position:relative;
+			background:#fff;
+			margin-top:5px;
+			border:1px solid #ccc;
+			height:304px;
+			overflow:scroll;
+		}
+		#imagegrouplist{
+			list-style:none;
+			margin:0;
+			padding:0;
+		}
+		#imagegrouplist li{
+			float:left;
+			border:1px solid #fff;
+			height:150px;
+			width:150px;
+			margin:1px;
+		}
+		li.ui-selected{
+			border:1px solid #ccc;
+			background:#eaeaea;
+		}
+	</style>
+</head>
+<body>
+
+<form onsubmit="ExampleDialog.insert();return false;" action="#">
+	<fieldset>
+		<legend>Insert Controls</legend>
+		<table width="100%" border="0" cellpadding="0" cellspacing="3">
+			<tr>
+				<td valign="top">
+					<h3>Type of insert</h3>
+					<ul>
+						<li><input type="radio" name="insertFormat" checked="checked" value="single"/> Single Image</li>
+						<li><input type="radio" name="insertFormat" value="singleWLink"/> Single Image w/ link</li>
+						<li><input type="radio" name="insertFormat" value="allWTable"/> Image(s) in table </li>
+						<li><input type="radio" name="insertFormat" value="allWTableLink"/> Image(s) in table w/ link</li>
+					</ul>
+				</td>
+				<td valign="top">
+					<h3>Size of insert</h3>
+					<ul>
+						<li><input type="radio" name="insertSize" checked="checked" value="thumbnail"/> Thumbnail size</li>
+						<li><input type="radio" name="insertSize" value="medium"/> Medium size</li>
+						<li><input type="radio" name="insertSize" value="full"/> Full size </li>
+					</ul>
+				</td>
+				<td valign="">
+					<input type="button" id="insert" name="insert" value="{#insert}" onclick="ExampleDialog.insert();" />
+					<br/>
+					<br/>
+					<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+				</td>
+			</tr>
+		</table>
+	</fieldset>
+	<fieldset>
+		<legend>Browse Controls</legend>
+	</fieldset>
+	<div id="imagegroup">
+		<ul id="imagegrouplist">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</form>
+
+</body>
+</html>

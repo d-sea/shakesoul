@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/*
+*	※Licence: CC3.0 
+*	http://creativecommons.org/licenses/by/3.0/deed.ja
+*
+*	Title: Warship - Modules
+*	URI: http://vicuna.jp/
+*	Last Modified: 2007-11-1
+*	Author: wu
+*
+*/
+
+/*--------------------------------------
+	5-1. Eye Catch [Short] Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_eyeCatch-short.css);
+*/
+
+/*--------------------------------------
+	5-2. Eye Catch [Long] Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_eyeCatch-long.css);
+*/
+
+/*--------------------------------------
+	5-3. Eye Catch [Mini] Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_eyeCatch-mini.css);
+*/
+
+/*--------------------------------------
+	5-4. Eye Catch [Header] Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_eyeCatch-header.css);
+*/
+
+/*--------------------------------------
+	5-5. Global Navigation Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_gNavi/mod_gNavi.css);
+*/
+
+/*--------------------------------------
+	5-6. Calendar Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_calendar.css);
+*/
+
+/*--------------------------------------
+	5-7. Sub Skin Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_subSkin/subSkin.css);
+*/

@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpTable\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-11-26 14:15+0900\n"
+"Last-Translator: \n"
+"Language-Team: Alex Rabe\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-table-admin.php:34
+#: wp-table-admin.php:44
+#: wp-table-admin.php:110
+#: wp-table-admin.php:122
+#: wp-table-admin.php:132
+msgid "Update Successfully"
+msgstr "アップデートしました。"
+
+#: wp-table-admin.php:49
+#: wp-table-admin.php:111
+#: wp-table-admin.php:136
+msgid "No Update needed"
+msgstr "アップデートは必要ありませんでした。"
+
+#: wp-table-admin.php:62
+#: wp-table-admin.php:76
+#: wp-table-admin.php:80
+#: wp-table-admin.php:89
+#: wp-table-admin.php:93
+msgid "Database error. Could not perfom action."
+msgstr "データベース エラー. Could not perfom action."
+
+#: wp-table-admin.php:64
+msgid "New row successfully added"
+msgstr "新しい列が挿入されました"
+
+#: wp-table-admin.php:78
+msgid "New column successfully added"
+msgstr "新しい行が挿入されました"
+
+#: wp-table-admin.php:91
+msgid "Last column successfully deleted"
+msgstr "最後の行を削除しました"
+
+#: wp-table-admin.php:154
+msgid "Table width control"
+msgstr "テーブル幅の編集"
+
+#: wp-table-admin.php:155
+msgid "Here you can edit the column width of the selected table."
+msgstr "ここでは、あなたが選択したテーブルの幅が設定できます。"
+
+#: wp-table-admin.php:180
+msgid "Align control : Enter <strong>L</strong>=Left <strong>C</strong>=Center <strong>R</strong>=Right"
+msgstr "文字位置 : <strong>L</strong>=Left <strong>C</strong>=Center <strong>R</strong>=Right"
+
+#: wp-table-admin.php:196
+#: wp-table-admin.php:379
+#: wp-table-admin.php:453
+msgid "Update"
+msgstr "アップデート"
+
+#: wp-table-admin.php:197
+#: wp-table-admin.php:381
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: wp-table-admin.php:207
+msgid "Table preview"
+msgstr "テーブル プレビュー"
+
+#: wp-table-admin.php:208
+msgid "Please note this is not a WYSIWYG mode of the table, the CSS of your theme could show the table in a slightly different way."
+msgstr "Please note this is not a WYSIWYG mode of the table, the CSS of your theme could show the table in a slightly different way."
+
+#: wp-table-admin.php:258
+msgid "Error in deleting row for table"
+msgstr "Error in deleting row for table"
+
+#: wp-table-admin.php:261
+msgid "Row"
+msgstr "Zeile"
+
+#: wp-table-admin.php:261
+#: wp-table-admin.php:473
+msgid "deleted successfully"
+msgstr "を、削除しました"
+
+#: wp-table-admin.php:293
+#: wp-table-admin.php:473
+msgid "Table"
+msgstr "テーブル"
+
+#: wp-table-admin.php:294
+msgid "Here you can edit the selected table. It's possible to add or delete the last column."
+msgstr "ここでは、テー部の編集をすることが出来ます。たとえば、行を追加したり削除したりする事が可能です。"
+
+#: wp-table-admin.php:295
+msgid "If you want to show this table in your page, enter the tag :"
+msgstr "このテーブルをエントリー（記事）に挿入するなら、つぎのタグを書き込んでください。 Tag : "
+
+#: wp-table-admin.php:298
+msgid "Edit table"
+msgstr "テーブルの編集"
+
+#: wp-table-admin.php:302
+msgid "Title or Name :"
+msgstr "テーブルのタイトル :"
+
+#: wp-table-admin.php:303
+msgid "Description :"
+msgstr "記述 :"
+
+#: wp-table-admin.php:349
+msgid "Delete this row ?"
+msgstr "この列を削除しますか?"
+
+#: wp-table-admin.php:349
+msgid "Delete row"
+msgstr "行の削除"
+
+#: wp-table-admin.php:353
+msgid "Width"
+msgstr "幅"
+
+#: wp-table-admin.php:361
+msgid "Edit width"
+msgstr "幅の編集"
+
+#: wp-table-admin.php:374
+msgid "Add new row"
+msgstr "行の挿入"
+
+#: wp-table-admin.php:375
+msgid "Add new column"
+msgstr "列の挿入"
+
+#: wp-table-admin.php:376
+msgid "Delete last column"
+msgstr "列の削除"
+
+#: wp-table-admin.php:376
+msgid "Delete last column ?"
+msgstr "最後の列を削除しても良いですか？"
+
+#: wp-table-admin.php:380
+msgid "Save and go back"
+msgstr "セーブして戻ります"
+
+#: wp-table-admin.php:389
+msgid "Option"
+msgstr "オプション"
+
+#: wp-table-admin.php:394
+msgid "Border Color"
+msgstr "ボーダーカラー"
+
+#: wp-table-admin.php:396
+msgid "Enter the HTML color code (i.e. #E58802 for the border line)"
+msgstr "HTMLカラーコードを設定します。 (i.e. #E58802)"
+
+#: wp-table-admin.php:399
+msgid "Headline Color"
+msgstr "ヘッダーカラー"
+
+#: wp-table-admin.php:401
+msgid "Select a background color for the first row"
+msgstr "最初の行の背景色を設定します。"
+
+#: wp-table-admin.php:404
+msgid "Alternative Color"
+msgstr "交互の色"
+
+#: wp-table-admin.php:406
+msgid "Select the alternating color (i.e. #F4F4EC)"
+msgstr "交互の色を選択してください。  (i.e. #F4F4EC)"
+
+#: wp-table-admin.php:409
+msgid "Table alignment"
+msgstr "テーブルの位置"
+
+#: wp-table-admin.php:411
+msgid "Left"
+msgstr "Left"
+
+#: wp-table-admin.php:412
+msgid "Center"
+msgstr "Center"
+
+#: wp-table-admin.php:413
+msgid "Right"
+msgstr "Right"
+
+#: wp-table-admin.php:415
+msgid "Alignment of table to surrounding text"
+msgstr "テーブルの位置を変更します"
+
+#: wp-table-admin.php:418
+msgid "Border Size"
+msgstr "ボーダーサイズ"
+
+#: wp-table-admin.php:420
+msgid "Size of border around the table (0 = no border)"
+msgstr "テーブル周りのボーダーサイズ (0 = no border)"
+
+#: wp-table-admin.php:423
+msgid "Cell spacing"
+msgstr "セル スペース"
+
+#: wp-table-admin.php:425
+msgid "Space between cells (Default = 1)"
+msgstr "セルの間のスペース(デフォルト=1)"
+
+#: wp-table-admin.php:428
+msgid "Cell padding"
+msgstr "セル パディング"
+
+#: wp-table-admin.php:430
+msgid "Space between the edge of a cell and the contents (Default = 0)"
+msgstr "セルの縁とコンテンツの間のスペース(デフォルト=0)"
+
+#: wp-table-admin.php:433
+msgid "Use alternating color"
+msgstr "交互の色"
+
+#: wp-table-admin.php:435
+msgid "This option will show every second row in the alternativ color"
+msgstr "このオプションは、行の背景色を奇数と偶数で変化させます。"
+
+#: wp-table-admin.php:438
+msgid "Show table name as title"
+msgstr "タイトル、テーブル名の表示"
+
+#: wp-table-admin.php:440
+msgid "The table name will be shown as [h2] headline"
+msgstr "テーブル名が[h2]として示されます。"
+
+#: wp-table-admin.php:443
+msgid "Show description"
+msgstr "記述の表示"
+
+#: wp-table-admin.php:445
+msgid "The description will be shown"
+msgstr "設定された記述が表示されます。"
+
+#: wp-table-admin.php:448
+msgid "Show first row in bold"
+msgstr "1行目の強調表示"
+
+#: wp-table-admin.php:450
+msgid "The first row get the tag [strong]"
+msgstr "1行目の文字が強調表示されます。 (Tag [strong])"
+
+#: wp-table-admin.php:467
+msgid "Error in deleting table"
+msgstr "Error in deleting table"
+
+#: wp-table-admin.php:470
+msgid "Error in deleting entries for table"
+msgstr "Error in deleting entries for table"
+
+#: wp-table-admin.php:489
+msgid "Table "
+msgstr "テーブル"
+
+#: wp-table-admin.php:489
+msgid " added successfully"
+msgstr " 加えられました。"
+
+#: wp-table-admin.php:495
+msgid " columns added successfully"
+msgstr " 列追加されました"
+
+#: wp-table-admin.php:498
+msgid "Error : Table cannot insert to database"
+msgstr "エラー : テーブルをデータベースに挿入する事は出来ません。"
+
+#: wp-table-admin.php:500
+msgid "Error : You need to enter a table name"
+msgstr "エラー : テーブル名を入力する必要があります。"
+
+#: wp-table-admin.php:512
+msgid "Manage Table"
+msgstr "テーブルの管理"
+
+#: wp-table-admin.php:515
+msgid "ID"
+msgstr "ID"
+
+#: wp-table-admin.php:516
+msgid "Table Name"
+msgstr "テーブル名"
+
+#: wp-table-admin.php:517
+msgid "Description"
+msgstr "記述"
+
+#: wp-table-admin.php:518
+msgid "Action"
+msgstr "動作"
+
+#: wp-table-admin.php:532
+msgid "Edit"
+msgstr "編集"
+
+#: wp-table-admin.php:533
+msgid "The complete table and content will be erased. Delete?"
+msgstr "完全にテーブルと内容は削除されます。よろしいですか？"
+
+#: wp-table-admin.php:533
+msgid "Delete"
+msgstr "削除"
+
+#: wp-table-admin.php:538
+msgid "No table found"
+msgstr "テーブルはありませんでした"
+
+#: wp-table-admin.php:545
+msgid "Add a new table"
+msgstr "新しいテーブルの追加"
+
+#: wp-table-admin.php:549
+msgid "Table name"
+msgstr "テーブル名"
+
+#: wp-table-admin.php:553
+msgid "No. of columns:"
+msgstr "行数:"
+
+#: wp-table-admin.php:565
+msgid "Add table"
+msgstr "テーブルの追加"
+
+#: wp-table.php:41
+msgid "Tables"
+msgstr "テーブル"
+

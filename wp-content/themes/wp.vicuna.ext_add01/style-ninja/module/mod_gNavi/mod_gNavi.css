@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/*
+@prefix : <http://purl.org/net/ns/doas#> .
+<> a :CSSstylesheet;
+ :title "Vicuna - Global Navigation Style Module";
+ :created "2007-3-16";
+ :release [:revision "1.12"; :created "2008-01-05"];
+ :author [:name "wu"; :homepage <http://vicuna.jp/>; :mbox "3ping.org@gmail.com"];
+ :license <http://creativecommons.org/licenses/by/3.0/>;
+ :description "グローバルメニューHTML用のスタイル定義";
+ :note "このモジュールを有効にする前に、グローバルメニュー用のHTMLが追加されている必要があります。" .
+*/
+
+div#header {
+	border-bottom: 0;
+}
+
+/*--------------------
+	Border Switch
+----------------------*/
+
+div#content,
+div#content div#main,
+div#content div#utilities {
+	border-top: none;
+}
+
+/*======================================
+
+	Global Navigation Module
+	
+=======================================*/
+
+ul#globalNavi {
+	margin: 25px 0 -26px;
+	padding: 0 0 0 0;
+	background-color:#1F1F1F;
+}
+
+ul#globalNavi li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 120px;
+	line-height: 1;
+	list-style-type: none;
+	font-size: 12px;
+}
+
+/*--------------------------------------
+	1.Button
+---------------------------------------*/
+
+ul#globalNavi li a {
+	padding: 0.6em 10px; /* Button Height */
+	border: none;
+	border-right: 2px solid #222;
+	display: block;
+	position: relative; /* IE6 Bug Fix */
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: #000;
+}
+
+/*--------------------------------------
+	2. On mouse
+---------------------------------------*/
+
+ul#globalNavi li a:hover {
+	color: #333;
+	background-color: #eee;
+}
+
+/*--------------------------------------
+	3. Current 
+---------------------------------------*/
+
+ul#globalNavi li.current a:link,
+ul#globalNavi li.current a:visited,
+ul#globalNavi li.current a:hover {
+	border-right: none;
+	color: #000;
+	background-color: #fff;
+}
+
+/*--------------------------------------
+	clearFix
+---------------------------------------*/
+
+ul#globalNavi {
+	_height: 1px;
+	min-height: 1px;
+}
+
+ul#globalNavi:after {
+	height: 0;
+	visibility: hidden;
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* for MacIE5 \*//*/
+
+ul#globalNavi {
+	height: auto;
+	overflow: hidden;
+}
+/* end */

@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*
+@prefix : <http://purl.org/net/ns/doas#> .
+<> a :CSSstylesheet;
+ :title "Vicuna - Calendar Style Module";
+ :created "2007-3-16";
+ :release [:revision "1.1"; :created "2008-01-06"];
+ :author [:name "wu"; :homepage <http://vicuna.jp/>; :mbox "3ping.org@gmail.com"];
+ :license <http://creativecommons.org/licenses/by/3.0/>;
+ :description "カレンダーHTML用のスタイル定義";
+ :note "このモジュールを有効にする前に、カレンダー用のHTMLが追加されている必要があります。" .
+*/
+
+/*======================================
+
+	Calendar Style Module
+	
+=======================================*/
+
+/*--------------------------------------
+	1.Structure
+---------------------------------------*/
+
+div#utilities dl dd table.calendar {
+	margin: 0.3em 0 0.3em 8px;
+	font-size: 85%;
+	border: none;
+	width: 300px;
+	border-top: 1px solid #111;
+	border-left: 1px solid #111;
+}
+
+body.double div#utilities dl dd table.calendar {
+	margin: 0.3em 0 0.3em 15px;
+	width:200px;
+}
+
+/*--------------------------------------
+	2.前後の月へのリンク
+---------------------------------------*/
+
+div#utilities dl dd table.calendar caption {
+	color: #ccc;
+}
+
+body.double div#utilities dl dd table.calendar caption {
+
+}
+
+div#utilities dl dd table.calendar caption a {
+	padding: 0 5px;
+	height: 1px;
+	color: #ccc;
+	background-color: #222;
+	font-weight: bold;
+	text-decoration: none;
+	outline: none;
+}
+
+div#utilities dl dd table.calendar caption a:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+/*--------------------------------------
+	3.セル
+---------------------------------------*/
+
+div#utilities dl dd table.calendar th,
+div#utilities dl dd table.calendar td {
+	padding: 0;
+	border: none;
+	border-right: 1px solid #111;
+	border-bottom: 1px solid #111;
+	text-align: center;
+
+}
+
+div#utilities dl dd table.calendar th {
+	color: #fff;
+	background-color: #333;
+	background-image: url(../images/common/grad01.gif);
+	background-repeat: repeat-x;
+}
+
+div#utilities dl dd table.calendar td {
+}
+
+/*--------------------------------------
+	4.土日
+---------------------------------------*/
+
+div#utilities dl dd table.calendar th.sun {
+	color: #fff;
+	background-color: #333;
+	background-image: url(../images/common/grad02.gif);
+	background-repeat: repeat-x;
+}
+
+div#utilities dl dd table.calendar th.sat {
+	color: #fff;
+	background-color: #333;
+	background-image: url(../images/common/grad02.gif);
+	background-repeat: repeat-x;
+}
+
+/*--------------------------------------
+	5.セル内のリンク
+---------------------------------------*/
+
+div#utilities dl dd table.calendar td a {
+	padding: 0.6em 0;
+	display: block;
+	line-height: 1;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+div#utilities dl dd table.calendar td a:link {
+	color: #fff;
+	background-image: url(../images/common/circle01.gif);
+}
+
+div#utilities dl dd table.calendar td a:visited {
+	color: #999;
+	background-image: url(../images/common/circle02.gif);
+}
+
+div#utilities dl dd table.calendar td a:hover {
+	color: #000;
+	background-image: url(../images/common/circle03.gif);
+}

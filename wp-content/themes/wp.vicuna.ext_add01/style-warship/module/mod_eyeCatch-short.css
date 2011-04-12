@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*
+*	Title: Vicuna: [Mod Eye Catch Short]
+*	URI: http://vicuna.jp/
+*	Last Modified: 2007-07-06
+*	Author: wu
+*
+*	Description:
+*	ページ上部に画像(Short)を表示させる事ができます。
+*	読み込まれる画像: images/eyeCatch/short.gif
+*
+*/
+
+/*======================================
+
+	Eye Catch [Short] image Module
+	
+=======================================*/
+
+/*--------------------------------------
+	1-1.全てのページへ影響
+---------------------------------------*/
+
+body {
+	margin: 0 10px;
+}
+
+div#header,
+div#content,
+div#footer {
+	width: 800px;
+}
+
+body.mainIndex h1 {
+	display: block!important;
+}
+
+/*--------------------------------------
+	1-2.body.doubleへの処理
+---------------------------------------*/
+
+body.double div#main h1{
+	padding-top: 255px;
+	background-image: url(../images/eyeCatch/short.gif);
+	background-repeat: no-repeat;
+}

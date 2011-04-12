@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/*
+@prefix : <http://purl.org/net/ns/doas#> .
+<> a :CSSstylesheet;
+ :title "Vicuna - Multi Column Type2 Module";
+ :created "2008-01-07";
+ :release [:revision "1.00"; :created "2008-01-010"];
+ :author [:name "wu"; :homepage <http://vicuna.jp/>; :mbox "3ping.org@gmail.com"];
+ :license <http://www.opensource.org/licenses/mit-license.php>;
+ :description "本文エリアが左に置かれる3カラムレイアウトモジュール";
+ :note "
+ 	このモジュールが有効の時、ページの表示幅は800px(最優先)の固定幅になります。
+ 	mod_multiCol-Type1との併用はできませんので必ず一方だけ読み込ませてください。
+	また、このレイアウトを有効にするには、ページのbody要素のクラスを multi に変更してください。
+	" .
+*/
+
+/*======================================
+
+	Multi Column TYPE2
+	┏━━┓┌┐┌┐
+	┃　　┃││││
+	┗━━┛└┘└┘
+	
+=======================================*/
+
+/*--------------------------------------
+	1-1.Style to All
+---------------------------------------*/
+
+div#header,
+div#content,
+div#footer {
+	width: 800px;
+	min-width: none;
+	max-width: none;
+}
+
+/*--------------------------------------
+	1-3.Style for body.multi
+---------------------------------------*/
+
+/* 1-3-1. div#main
+-----------------------------*/
+
+body.multi div#main {
+	margin-right: 20px;
+	float: left;
+	display: inline;
+	width: 400px;
+}
+
+/* 1-3-2. div#utilities
+-----------------------------*/
+
+body.multi div#utilities {
+	padding: 0;
+	display: inline; /* for IE */
+	float: right;
+	clear: right;
+	width: 380px;
+	background-image: url(../subSkin/images/bg/bg_line_dotted2.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+
+body.multi div#utilities dl.navi {
+	float: right;
+	width: 185px;
+	display: inline; /* for IE */
+}
+
+body.multi div#utilities dl.others {
+	margin-right: 10px;
+	margin-left: 10px;
+	display: inline; /* for IE */
+	width: 175px;
+	float: right;
+}
+
+/*--------------------------------------
+	1-2.Style for body.double
+---------------------------------------*/
+
+/* 1-2-1.div#main
+-----------------------------*/
+
+body.double div#main {
+	margin: 0 0 0 0;
+	width: 570px;
+	float: left;
+}
+
+/* 1-2-1.div#utilities
+-----------------------------*/
+
+body.double div#utilities {
+	width: 185px;
+	float: right;
+	clear: right;
+}
+
+body.double div#utilities dl.navi,
+body.double div#utilities dl.others {
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 185px;
+}
+
+/*--------------------------------------
+	Others
+---------------------------------------*/
+
+/* Thumbnail */
+
+div#utilities ul.thumb li {
+	width: 80px;
+}

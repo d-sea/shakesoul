@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*
+@prefix : <http://purl.org/net/ns/doas#> .
+<> a :CSSstylesheet;
+ :title "Vicuna Bazooka Style - Module Hub stylesheet";
+ :created "2007-07-12";
+ :release [:revision "1.1"; :created "2008-04-10"];
+ :author [:name "wu"; :homepage <http://vicuna.jp/>; :mbox "3ping.org@gmail.com"];
+ :license <http://creativecommons.org/licenses/by/3.0/>;
+ :description "表示をカスタマイズするためのモジュール";
+ :note "@importの上下にあるコメント記法を削除することで読み込まれます。" .
+*/
+
+/*--------------------------------------
+	5-1. Eye Catch [Short] Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_eyeCatch-short.css);
+*/
+
+/*--------------------------------------
+	5-2. Eye Catch [Long] Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_eyeCatch-long.css);
+*/
+
+/*--------------------------------------
+	5-3. Eye Catch [Mini] Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_eyeCatch-mini.css);
+*/
+
+/*--------------------------------------
+	5-4. Eye Catch [Header] Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_eyeCatch-header.css);
+*/
+
+/*--------------------------------------
+	5-5. Global Navigation Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_gNavi/mod_gNavi.css);
+*/
+
+/*--------------------------------------
+	5-6. Calendar Module
+---------------------------------------*/
+
+/*
+@import url(module/mod_calendar.css);
+*/

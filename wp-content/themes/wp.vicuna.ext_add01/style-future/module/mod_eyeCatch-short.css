@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*
+@prefix : <http://purl.org/net/ns/doas#> .
+<> a :CSSstylesheet;
+ :title "Vicuna - Eye Catch Mini Module";
+ :created "2007-07-26";
+ :release [:revision "1.1"; :created "2008-01-05"];
+ :author [:name "wu"; :homepage <http://vicuna.jp/>; :mbox "3ping.org@gmail.com"];
+ :license <http://creativecommons.org/licenses/by/3.0/>;
+ :description "ページの本文上部に任意の画像を読み込むモジュール";
+ :note "
+	読み込まれる画像は style-xxx/images/eyeCatch/short.png です。
+ 	このモジュールが有効の時、ページの表示幅は800pxの固定幅になります。
+	" .
+*/
+
+/*======================================
+
+	Eye Catch [Short] image Module
+	
+=======================================*/
+
+/*--------------------------------------
+	1-1.全てのページへ影響
+---------------------------------------*/
+
+body {
+	margin: 0 10px;
+}
+
+div#header,
+div#content,
+div#footer {
+	width: 800px;
+}
+
+body.mainIndex h1 {
+	display: block!important;
+}
+
+/*--------------------------------------
+	1-2.body.doubleへの処理
+---------------------------------------*/
+
+body.double div#main h1{
+	padding-top: 255px;
+	border-left: none;
+	background-color: #f5f5f5;
+	background-image: url(../images/eyeCatch/short.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}

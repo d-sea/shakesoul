@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/*
+*	Title: Vicuna: [Eye Catch Head Module]
+*	URI: http://vicuna.jp/
+*	Last Modified: 2007-07-05
+*	Author: wu
+*
+*	Hint:
+*	ページ最上部に画像を表示させる事ができます。
+*	読み込まれる画像: images/eyeCatch/long.gif
+*
+*/
+
+/*======================================
+
+	Eye Catch [Header] image Module
+	
+=======================================*/
+
+/*--------------------------------------
+	1-1.全てのページへ影響
+---------------------------------------*/
+
+body {
+	margin: 0 10px;
+}
+
+div#header,
+div#content,
+div#footer {
+	width: 800px;
+}
+
+div#header {
+	padding-top: 115px; /*  挿入画像の高さ */
+	_height: 115px;  /* for IE 挿入画像の高さ */
+	position: relative;
+	background-image: url(../images/eyeCatch/header.gif);
+	background-repeat: no-repeat;
+}
+
+/* タイトルの位置 */
+
+div#header p.siteName {
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+
+/* 概要の位置 */
+
+div#header p.description {
+	position: absolute;
+	top: 55px;
+	left: 30px;
+	color: #999;
+}
+
+/*--------------------------------------
+	2-1.グローバルナビへの処理
+---------------------------------------*/
+
+div#header ul#globalNavi {
+	margin-top: 10px;
+}

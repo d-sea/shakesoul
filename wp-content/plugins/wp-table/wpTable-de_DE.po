@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpTable\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-11-20 23:19+0100\n"
+"Last-Translator: Alex Rabe\n"
+"Language-Team: Alex Rabe\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-table-admin.php:34
+#: wp-table-admin.php:44
+#: wp-table-admin.php:110
+#: wp-table-admin.php:122
+#: wp-table-admin.php:132
+msgid "Update Successfully"
+msgstr "Erfolgreich aktualisiert"
+
+#: wp-table-admin.php:49
+#: wp-table-admin.php:111
+#: wp-table-admin.php:136
+msgid "No Update needed"
+msgstr "Keine Aktualisierung notwendig"
+
+#: wp-table-admin.php:62
+#: wp-table-admin.php:76
+#: wp-table-admin.php:80
+#: wp-table-admin.php:89
+#: wp-table-admin.php:93
+msgid "Database error. Could not perfom action."
+msgstr "Dantenbankfehler ! Aktion konnte nicht durchgeführt werden."
+
+#: wp-table-admin.php:64
+msgid "New row successfully added"
+msgstr "Neue Zeile erfolgreich eingefügt"
+
+#: wp-table-admin.php:78
+msgid "New column successfully added"
+msgstr "Neue Spalte erfolgreich hinzugefügt"
+
+#: wp-table-admin.php:91
+msgid "Last column successfully deleted"
+msgstr " Letzte Spalte erfolgreich gelöscht"
+
+#: wp-table-admin.php:154
+msgid "Table width control"
+msgstr "Tabellenbreite ändern"
+
+#: wp-table-admin.php:155
+msgid "Here you can edit the column width of the selected table."
+msgstr "Hier kann die Spaltenbreite der ausgewählten Tabelle angepasst werden."
+
+#: wp-table-admin.php:180
+msgid "Align control : Enter <strong>L</strong>=Left <strong>C</strong>=Center <strong>R</strong>=Right"
+msgstr "Ausrichtung der Spalte : <strong>L</strong>=Links <strong>C</strong>=Mitte <strong>R</strong>=Rechts"
+
+#: wp-table-admin.php:196
+#: wp-table-admin.php:379
+#: wp-table-admin.php:453
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: wp-table-admin.php:197
+#: wp-table-admin.php:381
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: wp-table-admin.php:207
+msgid "Table preview"
+msgstr "Tabellenvorschau"
+
+#: wp-table-admin.php:208
+msgid "Please note this is not a WYSIWYG mode of the table, the CSS of your theme could show the table in a slightly different way."
+msgstr "Bitte beachte das die Tabelle im Blog leicht anders aussehen kann, je nach den Einstellungen in deinem CSS-Theme"
+
+#: wp-table-admin.php:258
+msgid "Error in deleting row for table"
+msgstr "Fehler : Die Zeile konnte nichtgelöscht werden. ID :"
+
+#: wp-table-admin.php:261
+msgid "Row"
+msgstr "Zeile"
+
+#: wp-table-admin.php:261
+#: wp-table-admin.php:473
+msgid "deleted successfully"
+msgstr " erfolgreich gelöscht"
+
+#: wp-table-admin.php:293
+#: wp-table-admin.php:473
+msgid "Table"
+msgstr "Tabelle"
+
+#: wp-table-admin.php:294
+msgid "Here you can edit the selected table. It's possible to add or delete the last column."
+msgstr "Hier kann die Tabelle editiert werden. Man kann Zeilen und Spalten hinzufügen."
+
+#: wp-table-admin.php:295
+msgid "If you want to show this table in your page, enter the tag :"
+msgstr "Wenn du diese Tabelle in einem Beitrag anzeigen möchtest , verwende den Tag : "
+
+#: wp-table-admin.php:298
+msgid "Edit table"
+msgstr "Tabelle ändern"
+
+#: wp-table-admin.php:302
+msgid "Title or Name :"
+msgstr "Tabellenname :"
+
+#: wp-table-admin.php:303
+msgid "Description :"
+msgstr "Beschreibung :"
+
+#: wp-table-admin.php:349
+msgid "Delete this row ?"
+msgstr "Diese Zeile löschen ?"
+
+#: wp-table-admin.php:349
+msgid "Delete row"
+msgstr "Lösche Zeile"
+
+#: wp-table-admin.php:353
+msgid "Width"
+msgstr "Breite"
+
+#: wp-table-admin.php:361
+msgid "Edit width"
+msgstr "Breite ändern"
+
+#: wp-table-admin.php:374
+msgid "Add new row"
+msgstr "Neue Zeile hinzufügen"
+
+#: wp-table-admin.php:375
+msgid "Add new column"
+msgstr "Neue Spalte hinzufügen"
+
+#: wp-table-admin.php:376
+msgid "Delete last column"
+msgstr "Lösche letzte Spalte"
+
+#: wp-table-admin.php:376
+msgid "Delete last column ?"
+msgstr "Lösche letzte Spalte ?"
+
+#: wp-table-admin.php:380
+msgid "Save and go back"
+msgstr "Speichern und Zurück"
+
+#: wp-table-admin.php:389
+msgid "Option"
+msgstr "Optionen"
+
+#: wp-table-admin.php:394
+msgid "Border Color"
+msgstr "Rahmenfarbe"
+
+#: wp-table-admin.php:396
+msgid "Enter the HTML color code (i.e. #E58802 for the border line)"
+msgstr "Gebe den HTML Farbcode an (z.B. #E58802)"
+
+#: wp-table-admin.php:399
+msgid "Headline Color"
+msgstr "Kopfzeilenfarbe"
+
+#: wp-table-admin.php:401
+msgid "Select a background color for the first row"
+msgstr "Wähle eine Hintergrundfarbe für die erste Zeile"
+
+#: wp-table-admin.php:404
+msgid "Alternative Color"
+msgstr "Alternative Farbe"
+
+#: wp-table-admin.php:406
+msgid "Select the alternating color (i.e. #F4F4EC)"
+msgstr "Wähle die alternative Hintergundfarbe (z.B. #F4F4EC)"
+
+#: wp-table-admin.php:409
+msgid "Table alignment"
+msgstr "Tabellenausrichtung"
+
+#: wp-table-admin.php:411
+msgid "Left"
+msgstr "Links"
+
+#: wp-table-admin.php:412
+msgid "Center"
+msgstr "Mitte"
+
+#: wp-table-admin.php:413
+msgid "Right"
+msgstr "Rechts"
+
+#: wp-table-admin.php:415
+msgid "Alignment of table to surrounding text"
+msgstr "Ausrichtung der gesamten Tabelle"
+
+#: wp-table-admin.php:418
+msgid "Border Size"
+msgstr "Rahmenbreite"
+
+#: wp-table-admin.php:420
+msgid "Size of border around the table (0 = no border)"
+msgstr "Breite des Rahmens in Pixeln (0 = kein Rahmen)"
+
+#: wp-table-admin.php:423
+msgid "Cell spacing"
+msgstr "Zellenabstand"
+
+#: wp-table-admin.php:425
+msgid "Space between cells (Default = 1)"
+msgstr "Abstand der Zellen untereinander in Pixeln (Default = 1)"
+
+#: wp-table-admin.php:428
+msgid "Cell padding"
+msgstr "Zelleninnenabstand"
+
+#: wp-table-admin.php:430
+msgid "Space between the edge of a cell and the contents (Default = 0)"
+msgstr "Abstand zwischen Zellenrand und Zelleninhalt in Pixeln  (Default = 0)"
+
+#: wp-table-admin.php:433
+msgid "Use alternating color"
+msgstr "Benutze alternative Farbe"
+
+#: wp-table-admin.php:435
+msgid "This option will show every second row in the alternativ color"
+msgstr "Diese Option zeigt jede zweite Zeile in der alternativen Hintergrundfarbe"
+
+#: wp-table-admin.php:438
+msgid "Show table name as title"
+msgstr "Zeige den Tabellennamen an"
+
+#: wp-table-admin.php:440
+msgid "The table name will be shown as [h2] headline"
+msgstr "Der Tabellenname wird als [h2] Kopfzeile angezeigt"
+
+#: wp-table-admin.php:443
+msgid "Show description"
+msgstr "Zeige Beschreibung"
+
+#: wp-table-admin.php:445
+msgid "The description will be shown"
+msgstr "Zeige die Beschreibung an"
+
+#: wp-table-admin.php:448
+msgid "Show first row in bold"
+msgstr "Erste Zeile fettgedruckt"
+
+#: wp-table-admin.php:450
+msgid "The first row get the tag [strong]"
+msgstr "Die erste Zeile wird Fett gedruckt (Tag [strong])"
+
+#: wp-table-admin.php:467
+msgid "Error in deleting table"
+msgstr "Fehler : Tabelle kann nicht gelöscht werden. Id : "
+
+#: wp-table-admin.php:470
+msgid "Error in deleting entries for table"
+msgstr "Fehler : Keine Einträge gefunden für Tabelle "
+
+#: wp-table-admin.php:489
+msgid "Table "
+msgstr "Tabelle"
+
+#: wp-table-admin.php:489
+msgid " added successfully"
+msgstr " erfolgreich eingefügt"
+
+#: wp-table-admin.php:495
+msgid " columns added successfully"
+msgstr " Zeilen erfolgreich hinzugefügt"
+
+#: wp-table-admin.php:498
+msgid "Error : Table cannot insert to database"
+msgstr "Fehler : Tabelle kann nicht eingefügt werden"
+
+#: wp-table-admin.php:500
+msgid "Error : You need to enter a table name"
+msgstr "Fehler : Du must einen Tabellennamen angeben"
+
+#: wp-table-admin.php:512
+msgid "Manage Table"
+msgstr "Tabellen bearbeiten"
+
+#: wp-table-admin.php:515
+msgid "ID"
+msgstr "ID"
+
+#: wp-table-admin.php:516
+msgid "Table Name"
+msgstr "Tabellenname"
+
+#: wp-table-admin.php:517
+msgid "Description"
+msgstr "Beschreibung"
+
+#: wp-table-admin.php:518
+msgid "Action"
+msgstr "Aktion"
+
+#: wp-table-admin.php:532
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: wp-table-admin.php:533
+msgid "The complete table and content will be erased. Delete?"
+msgstr "Soll die Tabelle und der gesamte Inhalt gelöscht werden ?"
+
+#: wp-table-admin.php:533
+msgid "Delete"
+msgstr "Löschen"
+
+#: wp-table-admin.php:538
+msgid "No table found"
+msgstr "Keine Tabelle gefunden"
+
+#: wp-table-admin.php:545
+msgid "Add a new table"
+msgstr "Neue Tabelle hinzufügen"
+
+#: wp-table-admin.php:549
+msgid "Table name"
+msgstr "Tabellenname"
+
+#: wp-table-admin.php:553
+msgid "No. of columns:"
+msgstr "Anzahl der Spalten:"
+
+#: wp-table-admin.php:565
+msgid "Add table"
+msgstr "Tabelle hinzufügen"
+
+#: wp-table.php:41
+msgid "Tables"
+msgstr "Tabellen"
+

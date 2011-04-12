@@ -1,0 +1,173 @@
+/*
+Theme Name: SAMPLE 02
+Theme URI: http://www.www.www/
+Description: SAMPLE 02
+Author: TARO
+*/
+
+body	{
+	margin: 0;
+	padding: 0;
+	background-color: #00657d;
+	}
+
+#main	{
+	background-color: #ffffff;
+	padding: 10px 20px 1px;
+	}
+
+a	{
+	color: #00a0c6;
+	}
+
+
+/* ++++++ ヘッダー部分のデザイン ++++++ */
+
+#header h1	{
+	background-color: #00657d;
+	margin: 0;
+	}
+
+#header h1 img	{
+	border: none;
+	margin: 10px 20px;
+	}
+
+#header ul	{
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border-bottom: solid 1px #00657d;
+	height: 2em;
+	font-size: 0.75em;
+	}
+
+#header li	{
+	text-align: center;
+	border-right: solid 1px #00657d;
+	float: left;
+	line-height: 2em;
+	}
+
+#header li a	{
+	display: block;
+	width: 140px;
+	text-decoration: none;
+	color: #333333;
+	}
+
+#header li a:hover	{
+	background-color: #bbff7a;
+	}
+
+
+/* ++++++ トップページのデザイン ++++++ */
+
+#top	{
+	background-color: #000000;
+	position: relative;
+	top: 0;
+	left: 0;
+	}
+
+#topimg	{
+	margin: 0;
+	}
+
+#message	{
+	position: absolute;
+	top: 120px;
+	left: 480px;
+	width: 280px;
+	font-size: 0.875em;
+	line-height: 180%;
+	}
+
+
+/* ++++++ パンくずリンクのデザイン ++++++ */
+
+#bread	{
+	margin: 0;
+	font-size: 0.75em;
+	font-weight: bold;
+	}
+
+/* ++++++ コンテンツ部分のデザイン ++++++ */
+
+#contents	{
+	width: 700px;
+	margin: 20px 0 0;
+	}
+
+#contents h2	{
+	background-image: url(images/bar.gif);
+	background-repeat: no-repeat;
+	color: #ffffff;
+	font-size: 1.2em;
+	padding: 6px 10px;
+	}
+
+#contents p	{
+	font-size: 0.75em;
+	line-height: 150%;
+	}
+
+#post01	{
+	padding: 0 10px 10px;
+	}
+
+#post02	{
+	padding-left: 10px;
+	width: 460px;
+	float: left;
+	}
+
+#sidebar	{
+	float: right;
+	padding-right: 10px;
+	}
+
+.clear	{
+	clear: both;
+	margin: 0;
+	}
+
+#link	{
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	font-size: 0.75em;
+	}
+
+#link th, #link td	{
+	text-align: left;
+	padding: 10px 5px;
+	border: solid 1px #00a0c6;
+	}
+
+#link th	{
+	width: 100px;
+	background-color: #88c0ff;
+	}
+
+#link a	{
+	text-decoration: none;
+	color: #000000;
+	}
+
+#link a:hover	{
+	color: #00657d;
+	}
+
+/* ++++++ フッター部分のデザイン ++++++ */
+
+#footer	{
+	background-color: #00657d;
+	padding: 10px 20px;
+	}
+
+#footer address	{
+	color: #ffffff;
+	font-size: 0.75em;
+	font-style: normal;
+	}

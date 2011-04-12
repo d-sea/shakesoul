@@ -1,0 +1,14 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wp-dev/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wp-dev/index.php [L]
+</IfModule>
+
+# END WordPress
+#AuthUserFile /home/shakesoul/www/.htpasswd
+#AuthType Basic
+#AuthName "Web access"
+#Satisfy all

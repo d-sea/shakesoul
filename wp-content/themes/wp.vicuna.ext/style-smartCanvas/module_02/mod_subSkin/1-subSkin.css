@@ -1,0 +1,693 @@
+@charset "utf-8";
+
+/*
+@prefix : <http://purl.org/net/ns/doas#> .
+<> a :CSSstylesheet;
+ :title "Vicuna Smart Canvas - Leaves Sub Skin";
+ :created "2008-04-10";
+ :release [:revision "1.0"; :created "2008-04-10"];
+ :author [:name "wu"; :homepage <http://vicuna.jp/>; :mbox "3ping.org@gmail.com"];
+ :license <http://www.opensource.org/licenses/mit-license.php>;
+ :description "レイアウト簡易設定情報と色彩情報定義ファイル";
+ :note "
+ 	16進数の編集だけでも、スキンイメージを大きく変更できます。
+ 	このファイルで変更できない箇所は、コアCSS、
+	または、有効化されたモジュールCSSを直接編集するか、
+	ここに新たにセレクタを追加して上書きして下さい。
+ ".
+*/
+
+/*
+	<body class="single"> のページでは、
+	以下のCSSファイルがdiv#utilities に適用されます。
+	カスタマイズする場合はあわせて編集してください。
+*/
+
+@import url(2-singleUtilities.css);
+
+/*=========================================================
+
+	Layout
+	
+=========================================================*/
+
+body {
+	margin: 0 0; /* margin */
+}
+
+div#header,
+div#content,
+div#footer {
+	width: 90%; /* (example: 50%~100%, 400px~1000px, 60em, etc. )*/
+	min-width: 35em; /* 最小幅 */
+	max-width: 70em; /* 最大幅 */
+}
+
+/*--------------------------------
+	Side Border
+--------------------------------*/
+
+div#header,
+div#content {
+	border-color: #e3e3e3; /* 両サイドボーダーの色 */
+}
+
+/*=========================================================
+
+	General
+	
+=========================================================*/
+
+body {
+	color: #555;
+	background-color: #eee;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#header {
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+
+div#content {
+	background-color: #fff;
+}
+
+div#content div#main {
+	background-color: #fff;
+	border-color: #eee; /* 本文カラム境界線 */
+}
+
+/*---------------
+ Font Size Setting
+ 本文文字サイズ
+-----------------*/
+
+div.textBody {
+	font-size: 100%; /* ( small: 92% | medium: 100% | large: 107% ) */
+}
+
+/* individual font size (個別記事のみ文字サイズを変える) */
+
+body.individual div.textBody {
+	font-size: 100%; /* ( small: 92% | medium: 100% | large: 107% ) */
+}
+
+/*---------------
+ Link Color
+-----------------*/
+
+a:link {
+	color: #aebd2c;
+}
+
+a:visited {
+	color: #b8860b;
+}
+
+a:hover {
+	color: #6c9600;
+}
+
+/*---------------
+ Website Title
+-----------------*/
+
+div#header p.siteName {
+	font-size: 138.5%;
+}
+
+div#header p.siteName a {
+	color: #93bc37;
+}
+
+div#header p.siteName a:hover {
+	color: #aebd2c;
+}
+
+/*---------------
+ Description
+-----------------*/
+
+div#header p.description {
+	color: #999;
+}
+
+/*---------------
+ Topic Path
+-----------------*/
+
+/* 現在位置 */
+p.topicPath span.current {
+	border: 1px solid #eee;
+	color: #bca337;
+}
+
+/*---------------
+ Heading
+-----------------*/
+
+h1 {
+	margin: 0.5em 0 0;
+	padding: 0.5em 30px;
+	color: #333;
+	background-image: url(images/bg/slash.gif);
+	_height: 1px; /* for IE */
+}
+
+h1:first-letter {
+	color: #7db021;
+}
+
+h2 {
+	border-bottom: 1px solid #eee;
+	color: #000;
+}
+
+h3 {
+	color: #666;
+	background-color: #f5f5f5;
+}
+
+/*=========================================================
+
+	div#utilities (Sidebar)
+	
+=========================================================*/
+
+div#utilities dl.navi,
+div#utilities dl.others {
+	background-color: #fff;
+}
+
+div#utilities dl.navi dt,
+div#utilities dl.others dt {
+	background-image: url(images/bg/slash.gif);
+}
+
+/*---------------
+ Utilities Link Color
+-----------------*/
+
+div#utilities ul li {
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+div#utilities li a {
+	padding-left: 15px;
+	background-repeat: no-repeat;
+	background-position: 0 0.1em;
+}
+
+div#utilities li a:link {
+	background-image: url(images/arrow/arrow0101.gif);
+}
+
+div#utilities li a:visited {
+	background-image: url(images/arrow/arrow0102.gif);
+}
+
+div#utilities li a:hover {
+	background-position: 2px 0.1em;
+}
+
+/*---------------
+ .freeSpace [?]
+-----------------*/
+
+div#utilities .freeSpace {
+	margin: 1px;
+	background-color: #fff;
+}
+
+div#utilities .freeSpace p,
+div#utilities .freeSpace dl,
+div#utilities .freeSpace ul,
+div#utilities .freeSpace ol,
+div#utilities .freeSpace li {
+	margin: 0.1em 5px;
+}
+
+/*---------------
+ nest
+-----------------*/
+
+div#utilities dl.navi dd dl dt,
+div#utilities dl.others dd dl dt {
+	margin: 0.1em 5px;
+	padding: 0;
+	color: #000;
+	background-image: none;
+	border-bottom: 1px solid #ddd;
+}
+
+/*=========================================================
+
+	Entry
+	
+=========================================================*/
+
+/*---------------
+ Title
+-----------------*/
+
+div.entry h2 {
+	padding: 0 0 0 10px;
+	border-left: 5px solid #e5e5e5;
+}
+
+div.entry h2 a {
+	text-decoration: none;
+	color: #000;
+}
+
+div.entry h2 a:visited {
+	color: #000;
+}
+
+div.entry h2 a:hover {
+	color: #666;
+}
+
+/*---------------
+ Info
+-----------------*/
+
+div.entry ul.info {
+	margin-top: 0;
+	padding: 0 0 0 10px;
+	border-left: 5px solid #f5f5f5;	
+}
+
+/*---------------
+ Text Body
+-----------------*/
+
+div.entry div.textBody dl {
+	border-left: 4px solid #f5f5f5;
+	border-bottom: 1px solid #fff;
+}
+
+/*---------------
+ Link img
+-----------------*/
+
+div.textBody a img {
+	border: 3px solid #ccc;
+}
+
+div.textBody a:hover img {
+	border: 3px solid #000;
+}
+
+/*---------------
+ Continue reading
+-----------------*/
+
+p.continue {
+	padding-left: 16px;
+	background-image: url(images/arrow/arrow01.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+p.continue a:link,
+p.continue a:visited {
+	padding: 0 10px;
+	color: #fff;
+	background-color: #93bc37;
+}
+
+p.continue a:visited {
+	color: #999;
+	background-color: #eee;
+}
+
+p.continue a:hover {
+	color: #fff;
+	background-color: #93ca37;
+}
+
+/*---------------
+ Reaction
+-----------------*/
+
+div.entry ul.reaction {
+	border-top: 1px solid #eee;
+}
+
+div.entry ul.reaction li {
+	border-right: 2px solid #eee;
+}
+
+div.entry ul.reaction li a {
+	padding-left: 18px;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+div.entry ul.reaction li.comment a {
+	padding-left: 24px;
+	background-image: url(images/icon/v_icon010101.gif);
+}
+
+div.entry ul.reaction li.trackback a {
+	background-image: url(images/icon/v_icon080101.gif);
+}
+
+/*---------------
+ Reaction Log (individual)
+ -Comments
+ -Trackbacks
+-----------------*/
+
+div#comments dl.log dt span.name,
+div#trackback dl.log dt span.name {
+	color: #65a500;
+}
+
+div#comments dl.log dt span.date,
+div#trackback dl.log dt span.date {
+	color: #999;
+}
+
+
+div#comments dl.log dd,
+div#trackback dl.log dd {
+	border-bottom: 1px solid #eee;
+}
+
+div#trackback dl.log {
+	border-left: 5px solid #b7b737;
+}
+
+/* Trackback Info */
+
+div#trackback dl.info {
+	border-left: 5px solid #b7b737;
+	background-color: #f5f5f5;
+}
+
+div#trackback dl.info .URL {
+	color: #000;
+	background-color: #fff;
+}
+
+/*---------------
+ Flip Pager (Newer - Older)
+-----------------*/
+
+ul#flip1 li a {
+	padding: 0 0.5em;
+	color: #666;
+	background-repeat: no-repeat;
+}
+
+/* Newer Article */
+
+ul#flip1 li.newer a {
+	padding-left: 18px;
+	background-image: url(images/arrow/v_arrow070101.gif);
+	background-position: left center;
+}
+
+/* Older Article */
+
+ul#flip1 li.older a {
+	padding-right: 18px;
+	border-left: 1px solid #ccc;
+	background-image: url(images/arrow/v_arrow070102.gif);
+	background-position: right center;
+}
+
+/* On Mouse */
+
+ul#flip1 li a:hover {
+	color: #000;
+}
+ 
+ul#flip1 li.newer a:hover {
+	background-image: url(images/arrow/v_arrow070201.gif);
+}
+
+/* Older Article */
+
+ul#flip1 li.older a:hover {
+	background-image: url(images/arrow/v_arrow070202.gif);
+}
+
+/*---------------
+ Flip Pager2 (Newer - Older)
+-----------------*/
+
+#flip2 {
+	border: 1px solid #eee;
+}
+
+#flip2 li {
+	color: #000;
+}
+
+#flip2 li a {
+
+}
+
+/*---------------
+ Retun to page top
+-----------------*/
+
+p.return a {
+
+}
+
+/*---------------
+ Archive Index
+-----------------*/
+
+p.archives a {
+
+}
+
+/*=========================================================
+
+	Footer
+	
+=========================================================*/
+
+div#footer ul.support li {
+	color: #aaa;
+}
+
+div#footer ul.support li a {
+	color: #bbb;
+	text-decoration: none;
+}
+
+div#footer li.template a {
+
+}
+
+div#footer address {
+	color: #6cbc37;
+}
+
+/*=========================================================
+
+	Elements
+	
+=========================================================*/
+
+em {
+	color: #000;
+	font-weight: bold;
+}
+
+strong {
+	color: #008b07;
+}
+
+/*---------------
+ Form
+-----------------*/
+
+fieldset {
+	border: 1px solid #eee;
+	background-color: #f5f5f5;
+}
+
+legend {
+	color: #65a500;
+	background-color: #fff;
+}
+
+input,
+textarea {
+	border-color: #d4d4d4 #eee #eee #d4d4d4;
+	background-color: #fff;
+}
+
+input:hover,textarea:hover {
+	border-color: #00a0dd;
+}
+
+input:focus,textarea:focus {
+	border-color: #aaa;
+	background-color: #fff;
+}
+
+input.submit {
+	color: #fff;
+	background-color: #70bb14;
+}
+
+input.submit:hover {
+	background-color: #cc8414;
+}
+
+/*---------------
+ Table
+-----------------*/
+
+table {
+	border: 1px solid #cfd3d6;
+	background-color: #fff;
+}
+
+th,
+td {
+	border: 1px solid #efefef;
+	border-color: #efefef #dce0e3 #dce0e3 #efefef;
+}
+
+th {
+	color: #000;
+	background-color: #efefef;
+}
+
+td {
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+
+/*---------------
+ Pre
+-----------------*/
+
+pre {
+	color: #666;
+	background-color: #f5f5f5;
+}
+
+pre * {
+	color: #444;
+}
+
+pre[title]:before {
+	color: #fff;
+	background-color:  #93bc37;
+}
+
+/*---------------
+ Blockquote (引用)
+-----------------*/
+
+blockquote {
+	border: 1px solid #93bc37;
+	color: #666;
+	background-color: #f5f5f5;
+}
+
+blockquote * {
+	color: #666;
+}
+
+blockquote[title]:before {
+	color: #000;
+}
+
+blockquote[cite]:after {
+	color: #333;
+}
+
+cite {
+	color: #333;
+}
+
+/*=========================================================
+
+	Others
+	
+=========================================================*/
+
+/*--------------------------------------
+	Tag Cloud
+---------------------------------------*/
+
+ul.tagCloud {
+	margin: 0.5em 30px;
+	padding: 0.5em 10px;
+	line-height: 1;
+	font-size: 13px;
+}
+
+ul.tagCloud li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	font-size: 100%;
+}
+
+ul.tagCloud li a {
+	text-decoration: none;
+}
+
+/* Tag level 1>6 */
+
+ul.tagCloud li.level1 a {
+	font-size: 167%;
+	font-weight: bold;
+	color: #7a881a;
+}
+
+ul.tagCloud li.level2 a {
+	font-size: 136%;
+	font-weight: bold;
+	color: #bbc246;
+}
+
+ul.tagCloud li.level3 a {
+	font-size: 122%;
+	font-weight: bold;
+	color: #a1bc50;
+}
+
+ul.tagCloud li.level4 a {
+	font-size: 114%;
+	color: #acbe76;
+}
+
+ul.tagCloud li.level5 a {
+	font-size: 92%;
+	color: #b7d298;
+}
+
+ul.tagCloud li.level6 a {
+	font-size: 77%;
+	color: #cdd1c0;
+}
+
+/* On Mouse */
+ul.tagCloud li a:hover {
+	color: #7aac1a;
+}
+
+/*--------------------------------
+コメント・トラックバック数など、
+数を表す部分で使われます
+--------------------------------*/
+
+.count {
+	color: #93ca37;
+}
